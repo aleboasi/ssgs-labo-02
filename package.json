@@ -6,13 +6,18 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/aleboasi/ssgs-labo-02"
-    },
-    "bugs": {
-      "url": "https://github.com/aleboasi/ssgs-labo-02/issues"
-      },
-      "homepage": "https://github.com/aleboasi/ssgs-labo-02/blob/main/README.md",
+  },
+  "bugs": {
+    "url": "https://github.com/aleboasi/ssgs-labo-02/issues"
+  },
+  "homepage": "https://github.com/aleboasi/ssgs-labo-02/blob/main/README.md",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/stringUtils.js"
+    ]
   },
   "keywords": [
     "string",
@@ -23,5 +28,8 @@
     "occorrenze"
   ],
   "author": "Alessia Boasi https://github.com/aleboasi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
