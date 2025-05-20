@@ -1,19 +1,15 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
+# Node.js specific
+node_modules/
 
-# Environments
-.env
-.venv
-env/
-venv/
+# Coverage reports
+coverage/
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Unit test / coverage reports
-.coverage
-.pytest_cache/
-htmlcov/
+# OS generated files
+.DS_Store
+Thumbs.db
