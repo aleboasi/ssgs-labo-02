@@ -39,3 +39,12 @@ Per avviare l'applicazione ci sono diversi modi in base alla funzionalità che s
   5. Conteggio delle occorrenze di ciascun carattere in una stringa nel terminale
 
     node index.js 4 [stringa di cui si vuole contare le occorrenze di ogni carattere]
+
+---
+## Test
+
+per eseguire i test serve scrivere a terminale npm test
+
+l'obbiettivo finale è la coverage al 100%
+
+
