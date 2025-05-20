@@ -2,29 +2,40 @@
 
 Questo progetto fornisce una base per una semplice Command-Line Interface (CLI) Node.js che offre diverse utilità per la manipolazione di stringhe.
 
-## Nota Importante per lo Studente - Setup Iniziale del Progetto
-
-Benvenuto/a a `labo-string`!
-
-Questo repository è un **template di partenza** per il tuo laboratorio valutato. Come avrai modo di leggere nelle istruzioni del laboratorio, una parte fondamentale del tuo lavoro iniziale (Esercizio 1) consisterà nell'analizzare attentamente la struttura e la configurazione corrente di questo progetto.
-
-**Potresti notare che alcuni aspetti della configurazione iniziale – inclusa questa stessa documentazione (`README.md`), il file `package.json` e la gestione dei file da ignorare (`.gitignore`) – sono stati volutamente lasciati incompleti o potrebbero non seguire tutte le best practice per un progetto Node.js.**
-
-Il tuo primo compito sarà proprio quello di identificare queste aree di miglioramento e apportare le necessarie correzioni e completamenti, come dettagliato nelle istruzioni del laboratorio, per portare il progetto a uno standard qualitativo superiore.
-
-Buona analisi e buon lavoro!
-
 ## Funzionalità Principali (Previste)
 
-* Inversione di una stringa.
-* Verifica se una stringa è palindroma.
-* Troncamento di una stringa a una lunghezza massima specificata.
-* Conteggio delle occorrenze di ciascun carattere in una stringa.
-
-## Installazione e Avvio
-
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
+1. Inversione di una stringa.
+2. Verifica se una stringa è palindroma.
+3. Troncamento di una stringa a una lunghezza massima specificata.
+4. Conteggio delle occorrenze di ciascun carattere in una stringa.
 
 ---
 
-*Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
+## Installazione e Avvio
+
+*Prerequisiti*
+ * Node js
+ * npm
+
+*Installazione*
+  * Clonazione della repository https://github.com/aleboasi/ssgs-labo-02
+  * Cambio directory
+  * Installazione dipendenze npm install
+
+*Avvio*
+Per avviare l'applicazione ci sono diversi modi in base alla funzionalità che si vuole implementare:
+  1. Inversione di una stringa nel terminale
+
+    node index.js 1 [stringa che si vuole inserire]
+     
+  2. Verifica se una stringa è palindroma nel terminale
+
+    node index 2 [stringa che si vuole verificare se palindroma]
+     
+  3. Troncamento di una stringa a una lunghezza massima specificata nel terminale
+
+    node index 3 [stringa che si vuole troncare] [numero di caratteri della stringa nuova]
+     
+  5. Conteggio delle occorrenze di ciascun carattere in una stringa nel terminale
+
+    node index.js 4 [stringa di cui si vuole contare le occorrenze di ogni carattere]
