@@ -45,6 +45,12 @@ Per avviare l'applicazione ci sono diversi modi in base alla funzionalità che s
 
 per eseguire i test serve scrivere a terminale npm test
 
+---
+## Intergazione Continua
+La pipeline CI è configurata tramite GitHub Actions:
+
+trigger: automatici ad ogni commit
+file di configurazione: ./github/workflow/ci.yml
+risultati: i risultati dei test saranno visibili nelle Actions*
+
 l'obbiettivo finale è la coverage al 100%
-
-
