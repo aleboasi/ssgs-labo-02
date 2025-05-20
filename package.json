@@ -1,12 +1,27 @@
 {
   "name": "labo-string",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Applicazione per la manipolazione delle stringhe",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleboasi/ssgs-labo-02"
+    },
+    "bugs": {
+      "url": "https://github.com/aleboasi/ssgs-labo-02/issues"
+      },
+      "homepage": "https://github.com/aleboasi/ssgs-labo-02/blob/main/README.md",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "string",
+    "node",
+    "javascript",
+    "palindrome",
+    "parole",
+    "occorrenze"
+  ],
+  "author": "Alessia Boasi https://github.com/aleboasi",
   "license": "ISC"
 }
